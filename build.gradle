@@ -10,6 +10,7 @@ repositories {
 }
 
 dependencies {
+    compile group: 'org.eclipse.jetty', name: 'jetty-security', version: '9.4.5.v20170502'
     compile 'org.eclipse.jetty:jetty-server:9.4.5.v20170502'
     compile group: 'commons-io', name: 'commons-io', version: '2.5'
 
