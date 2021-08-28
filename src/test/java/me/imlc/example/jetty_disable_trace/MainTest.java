@@ -1,9 +1,9 @@
 package me.imlc.example.jetty_disable_trace;
 
+import jakarta.servlet.http.HttpServletResponse;
 import org.apache.commons.io.IOUtils;
 import org.junit.*;
 
-import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.net.HttpURLConnection;
 import java.net.MalformedURLException;
